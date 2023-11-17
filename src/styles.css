@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+  text-align: left;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Navigation */
+.nav-container {
+  height: 96px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+nav {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.right-items li {
+  list-style: none;
+  margin-right: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #0a112f;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+}
+
+.login {
+  border-radius: 100px;
+}
+
+.right-items li .login a {
+  text-decoration: none;
+  color: #0a112f;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 145%;
+}
+
+.learn-more {
+  background: #355fe5;
+  border-radius: 100px;
+  width: 142px;
+  height: 48px;
+  text-align: center;
+}
+
+.right-items li .learn-more a {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-style: normal;
+  line-height: 270%;
+}
+
+/* Header */
+
+.header-container {
+  background: #fafafa;
+  align-items: center;
+  width: 1440px;
+  height: 1080px;
+}
+
+.headline-container {
+  padding: 40px;
+  gap: 24px;
+}
+
+.headline-container h1 {
+  /* The safe and easy way to exchange your money */
+  margin: auto;
+
+  width: 1120px;
+  height: 51px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  /* Main Color/Black */
+
+  color: #0a112f;
+}
+
+.headline-container h4 {
+  /* Header/H4/Regular */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 24px;
+  /* or 133% */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  /* Greyscale / Grey 600 */
+
+  color: #585860;
+}
+
+.headline-container b {
+  color: #355fe5;
+}
+
+.currencies-container {
+  margin: auto;
+  width: auto;
+  height: 425px;
+  padding-left: 73px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+
+  letter-spacing: 0.005em;
+
+  color: #1f2c37;
+}
+
+.cards {
+  display: inherit;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 1120px;
+  height: 245px;
+}
+
+.card {
+  cursor: pointer;
+  font-size: 12px;
+  text-align: left;
+  display: inline-block;
+
+  /* Additional Colors/White */
+
+  border-radius: 16px;
+  border: none;
+  padding: 6px;
+  padding-top: 10px;
+  padding-bottom: 24px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 20px 0px #0000001a;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 10px;
+
+  width: 209.6px;
+  height: 73px;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+p {
+  color: #66707a;
+}
+
+.exchange-rate {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fdfdfd;
+  width: 216px;
+  height: 48px;
+  line-height: 270%;
+  background: #355fe5;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: none;
+}
+
+.exchange-rate:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#footer-wrapper {
+  top: 956px;
+  border-radius: 0px;
+  background: #ffffff;
+  width: 1440px;
+  height: 520px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 0;
+}
+.content-footer {
+  width: 170px;
+  height: 40px;
+  left: 190px;
+  top: 120px;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 62px;
+
+  box-sizing: border-box;
+  text-align: left;
+
+  width: 1050px;
+  height: 197px;
+
+  padding-top: 120px;
+  margin-left: 90px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px;
+
+  width: auto;
+  height: 197px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.column-text {
+  color: #9096a2;
+  font-size: 14px;
+  margin: auto;
+  text-align: left;
+}
+
+.active {
+  border: 2px solid #355fe5;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CurrencyPRO</title>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="nav-container">
+        <nav>
+          <div class="logo">
+            <img src="src/assets/logo.svg" alt="currencypro logo" />
+          </div>
+          <ul class="nav-items">
+            <li>
+              <a href="#">Currency Converter</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+          </ul>
+          <ul class="right-items">
+            <li>
+              <div class="login">
+                <a href="#">Log in</a>
+              </div>
+            </li>
+            <li>
+              <div class="learn-more">
+                <a href="#">
+                  Learn More
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-container">
+        <header>
+          <div class="headline-container">
+            <h1>
+              The safe and easy way to <b>exchange</b> your <b>money</b>
+            </h1>
+            <h4>
+              You always get the best exchange rate with Currencypro, whether
+              you send, spend, or convert money in dozens of currencies. But
+              don’t take our word for it.
+            </h4>
+          </div>
+          <div class="currencies-container">
+            <!-- Base currencies list-->
+            <div class="basecurrency-container">
+              <h3>Select your base currency</h3>
+              <div class="cards">
+                <button id="USD" class="card">
+                  <img src="src/assets/flags/USD.svg" alt="us dollar" />
+                  <p></p>
+                </button>
+                <button id="EUR" class="card">
+                    <img src="src/assets/flags/EUR.svg" alt="euro" />
+                  <p></p>
+                </button>
+                <button id="CAD" class="card">
+                    <img
+                      src="src/assets/flags/CAD.svg"
+                      alt="canadian dollar"
+                    />
+                  <p></p>
+                </button>
+                <button id="PKR" class="card">
+                    <img
+                      src="src/assets/flags/PKR.svg"
+                      alt="pakistani rupees"
+                    />
+                  <p></p>
+                </button>
+                <button id="INR" class="card">
+                    <img src="src/assets/flags/INR.svg" alt="indian rupees" />
+                  <p></p>
+                </button>
+                <button id="GBP" class="card">
+                    <img
+                      src="src/assets/flags/GBP.svg"
+                      alt="british pounds"
+                    />
+                  <p></p>
+                </button>
+                <button id="BRL" class="card">
+                    <img src="src/assets/flags/BRL.svg" alt="brazil real" />
+                  <p></p>
+                </button>
+                <button id="IDR" class="card">
+                    <img
+                      src="src/assets/flags/IDR.svg"
+                      alt="indonesian rupiah"
+                    />
+                  <p></p>
+                </button>
+              </div>
+            </div>
+            <!--Target currencies list-->
+            <div class="target-currency-container" style="display: none;">
+              <h3>Select your target currency</h3>
+              <div class="cards">
+                <button id="USD" class="card">
+                  <img src="src/assets/flags/USD.svg" alt="us dollar" />
+                  <p>United States Dollar</p>
+                </button>
+                <button id="EUR" class="card">
+                    <img src="src/assets/flags/EUR.svg" alt="euro" />
+                  <p>Euro</p>
+                </button>
+                <button id="CAD" class="card">
+                    <img
+                      src="src/assets/flags/CAD.svg"
+                      alt="canadian dollar"
+                    />
+                  <p>Canadian dollar</p>
+                </button>
+                <button id="PKR" class="card">
+                    <img
+                      src="src/assets/flags/PKR.svg"
+                      alt="pakistani rupees"
+                    />
+                  <p>Pakistani Rupees</p>
+                </button>
+                <button id="INR" class="card">
+                    <img src="src/assets/flags/INR.svg" alt="indian rupees" />
+                  <p>Indian Rupees</p>
+                </button>
+                <button id="GBP" class="card">
+                    <img
+                      src="src/assets/flags/GBP.svg"
+                      alt="british pounds"
+                    />
+                  <p>Pound Sterling</p>
+                </button>
+                <button id="BRL" class="card">
+                    <img src="src/assets/flags/BRL.svg" alt="brazil real" />
+                  <p>Brazilian Real</p>
+                </button>
+                <button id="IDR" class="card">
+                    <img
+                      src="src/assets/flags/IDR.svg"
+                      alt="indonesian rupiah"
+                    />
+                  <p>Indonesian Rupiah</p>
+                </button>
+              </div> 
+            </div>
+            <button class="exchange-rate" style="display: none;" disabled>
+                Track exchange rate
+            </button>
+          </div>
+        </header>
+      </div>
+      <footer id="footer-wrapper">
+        <div class="content-footer">
+          <div class="nav-footer">
+            <div>
+              <img src="src/assets/logo.svg" alt="currencypro logo" />
+            </div>
+            <div class="column">
+              How it works
+              <p class="column-text">Hire Employees</p>
+              <p class="column-text">Hire Contractors</p>
+              <p class="column-text">Global Payroll</p>
+              <p class="column-text">Integrations</p>
+            </div>
+            <div class="column">
+              Company
+              <p class="column-text">About</p>
+              <p class="column-text">Contact Us</p>
+              <p class="column-text">Countries</p>
+              <p class="column-text">Careers</p>
+            </div>
+            <div class="column">
+              Solutions
+              <p class="column-text">Compliances</p>
+              <p class="column-text">Payments</p>
+              <p class="column-text">Taxes</p>
+              <p class="column-text">Enterprises</p>
+            </div>
+            <div class="column">
+              Resources
+              <p class="column-text">FAQ</p>
+              <p class="column-text">Blog</p>
+              <p class="column-text">Open API</p>
+              <p class="column-text">Guide</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <div>
+
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
